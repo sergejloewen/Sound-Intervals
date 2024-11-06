@@ -1,50 +1,28 @@
-# Welcome to your Expo app 👋
+# Sound Intervals
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Sound Intervals is an app to create different custom intervals that have audio cues to let the user know when they start
+and have them play in succession and also potentially loop.
+It will have a library of different sounds to choose from and there will be a general timer of the overall time spent.  
+The app will be built with react native, expo and javascript/typescript
+and will be mainly for android, but due to the nature of the used technologies it is cross platform
+and technically should also be able to run on the web and ios.  
+Potential use cases are pomodoro techniques/ timers, time based training and more.
 
-## Get started
+## TO DO List
 
-1. Install dependencies
+### Base Functionality
 
-   ```bash
-   npm install
-   ```
+- [ ]  implement interval components for holding time + sound
+- [ ]  implement list to store intervals components
+- [ ]  implement button to add component to list
+- [ ]  implement logic for playing the sound and going through the intervals
+- [ ]  implement timer for overall time spent
+- [ ]  implement buttons to start and stop the intervals and timer
+- [ ]  implement option to remove elements from the interval list
+- [ ]  think and implement a way to preview selected sound of an interval
 
-2. Start the app
+### Potential Future features
 
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- [ ] implement option to save a set of custom intervals and set sounds as a template to reuse
+- [ ] implement darkmode
+- [ ] 
