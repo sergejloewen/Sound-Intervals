@@ -13,13 +13,12 @@ Testing will be mainly done for android and potentially web too.
 
 ### Base Functionality
 
-- [ ]  implement interval components for holding time + sound
-- [ ]  implement list to store intervals components
-- [ ]  implement button to add component to list
+- [ ]  create component for interval holding time + selected sound
+- [ ]  implement edit and delete option for interval component
+- [ ]  implement button to add new interval component to the view
 - [ ]  implement logic for playing the sound and going through the intervals
-- [ ]  implement timer for overall time spent
+- [ ]  implement timer component for overall time spent
 - [ ]  implement buttons to start and stop the intervals and timer
-- [ ]  implement option to remove elements from the interval list
 - [ ]  think and implement a way to preview selected sound of an interval
 - [ ]  think about behavior with no intervals
 
